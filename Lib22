@@ -2121,7 +2121,7 @@ function library:init()
                 objs.text = utility:Draw('Text', {
                     ThemeColor = 'Unselected Tab Text';
                     Text = text;
-                    Size = 50;
+                    Size = 40;
                     Font = 2;
                     ZIndex = z+1;
                     Outline = true;
