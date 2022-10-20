@@ -2089,7 +2089,7 @@ function library:init()
                 local z = library.zindexOrder.window + 5;
 
                 objs.background = utility:Draw('Square', {
-                    Size = newUDim2(0,50,1,0);
+                    Size = newUDim2(0,20,1,0);
                     Parent = self.objects.tabHolder;
                     ThemeColor = 'Unselected Tab Background';
                     ZIndex = z;
@@ -2121,7 +2121,7 @@ function library:init()
                 objs.text = utility:Draw('Text', {
                     ThemeColor = 'Unselected Tab Text';
                     Text = text;
-                    Size = 10;
+                    Size = 20;
                     Font = 2;
                     ZIndex = z+1;
                     Outline = true;
