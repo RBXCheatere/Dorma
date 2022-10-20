@@ -2086,7 +2086,7 @@ function library:init()
             --- Create Objects ---
             do
                 local objs = tab.objects;
-                local z = library.zindexOrder.window + 5;
+                local z = library.zindexOrder.window + 1;
 
                 objs.background = utility:Draw('Square', {
                     Size = newUDim2(0,40,1,0);
