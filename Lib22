@@ -2086,10 +2086,10 @@ function library:init()
             --- Create Objects ---
             do
                 local objs = tab.objects;
-                local z = library.zindexOrder.window + 2;
+                local z = library.zindexOrder.window + 5;
 
                 objs.background = utility:Draw('Square', {
-                    Size = newUDim2(0,10,1,0);
+                    Size = newUDim2(0,50,1,0);
                     Parent = self.objects.tabHolder;
                     ThemeColor = 'Unselected Tab Background';
                     ZIndex = z;
