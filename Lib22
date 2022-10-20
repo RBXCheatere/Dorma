@@ -2107,7 +2107,7 @@ function library:init()
                     Size = newUDim2(1,2,2,1);
                     Position = newUDim2(0,-1,0,-1);
                     ThemeColor = 'Border 3';
-                    ZIndex = z-2;
+                    ZIndex = z-1;
                     Parent = objs.innerBorder;
                 })
 
@@ -2160,7 +2160,7 @@ function library:init()
                     })
 
                     objs.innerBorder = utility:Draw('Square', {
-                        Size = newUDim2(1,2,1,1);
+                        Size = newUDim2(1,2,2,1);
                         Position = newUDim2(0,-1,0,0);
                         ThemeColor = 'Border 3';
                         ZIndex = z-1;
