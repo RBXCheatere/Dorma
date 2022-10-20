@@ -2104,7 +2104,7 @@ function library:init()
                 })
     
                 objs.outerBorder = utility:Draw('Square', {
-                    Size = newUDim2(1,1,1,1);
+                    Size = newUDim2(0,2,2,0);
                     Position = newUDim2(0,-1,0,-1);
                     ThemeColor = 'Border 3';
                     ZIndex = z-2;
