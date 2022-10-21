@@ -74,14 +74,14 @@ library.themes = {
     {
         name = 'Default',
         theme = {
-            ['Accent']                    = fromrgb(36,192,185);
-            ['Background']                = fromrgb(18,18,18);
+            ['Accent']                    = fromrgb(245,245,245);
+            ['Background']                = fromrgb(36,192,185);
             ['Border']                    = fromrgb(0,0,0);
             ['Border 1']                  = fromrgb(60,60,60);
             ['Border 2']                  = fromrgb(35,35,35);
             ['Border 3']                  = fromrgb(10,10,10);
             ['Primary Text']              = fromrgb(235,235,235);
-            ['Group Background']          = fromrgb(36,192,185);
+            ['Group Background']          = fromrgb(35,35,35);
             ['Selected Tab Background']   = fromrgb(35,35,35);
             ['Unselected Tab Background'] = fromrgb(18,18,18);
             ['Selected Tab Text']         = fromrgb(245,245,245);
